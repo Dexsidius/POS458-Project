@@ -2,7 +2,8 @@
 
 int main(int argc, char* args[]){
     POS pos;
-    !(pos.Start(int argc, char* args)){
+    
+    if (!pos.Start(argc, args)){
         return -1;
     }else{
         pos.Loop();
