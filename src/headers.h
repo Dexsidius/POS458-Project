@@ -8,11 +8,13 @@ using namespace std;
 #include <map>
 #include <stdio.h>
 #include <array>
+#include <vector>
 
 
 
 //SDL2 includes
 #include <SDL.h>
+#include <SDL_ttf.h>
 
 //Header Files
 #include "buttons.h"

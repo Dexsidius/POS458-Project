@@ -44,6 +44,8 @@ class POS{
     //Objects
     Pointer* mouse;
 
+    vector<Buttons*> buttons;
+
     
 };
 

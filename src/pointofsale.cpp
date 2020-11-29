@@ -1,4 +1,5 @@
 #include "pointofsale.h"
+#include "Screens.h"
 
 POS::POS(){
 
@@ -12,6 +13,9 @@ int POS::Start(int argc,char** argv){
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC);
     
     mouse = new Pointer;
+
+
+    state = MAIN_MENU;
     
     return 1;
 

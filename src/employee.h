@@ -25,13 +25,12 @@ class Server{
 class Manager: public Server{
     public:
 
-    Manager(string, char, char, float);
 
     private:
 
     void addUser();
     void viewTickets();
-    void viewEmpolyeeInfo(char);
+    void viewEmployeeInfo(char);
 };
 
 #endif employee_h
