@@ -6,6 +6,7 @@ using namespace std;
 //Library imports
 
 #include <map>
+#include <stdio.h>
 
 
 

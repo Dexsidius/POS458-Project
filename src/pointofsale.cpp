@@ -11,10 +11,19 @@ int POS::Start(int argc,char** argv){
 
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC);
     
+    return 0;
 
 }
 
 void POS::Loop(){
+    while (running) {
+        Process();
+        Render();
+    }
+
+}
+
+void POS::Process() {
 
 }
 
@@ -26,3 +35,5 @@ void POS::Timesheet(){
     
 
 }
+
+POS::~POS() {}

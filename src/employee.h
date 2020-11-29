@@ -11,9 +11,12 @@ class Server{
 
     //float tips, hourly rate, tickets
 
-    //void Clock_in(), 
+    void Clock_in();
+
     private:
     char password;
+    float hourly_rate;
+    float tips;
 
 };
 

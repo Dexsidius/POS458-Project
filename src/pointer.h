@@ -16,8 +16,6 @@ class Pointer{
         
         void Compute(SDL_Event* event);
 
-        void Set_Cursor(SDL_Cursor*);
-
         bool IsTouchingRect(SDL_Rect* rect);
         bool IsClickingRect(SDL_Rect* rect);
         bool IsTouching(SDL_Rect* rect);
