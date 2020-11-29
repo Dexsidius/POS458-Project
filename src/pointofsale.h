@@ -34,13 +34,16 @@ class POS{
     void Process();
 
     //Screen States
-    enum Screens{MAIN_MENU = 0, FOOD = 1, TABS = 2, Orders = 3} state;
+    enum Screens{MAIN_MENU = 0, FOOD = 1, TABS = 2, ORDERS = 3} state;
 
     //Booleans
 
     bool running = true;
-
     bool user_clockedin = false;
+
+    //Objects
+    Pointer* mouse;
+
     
 };
 

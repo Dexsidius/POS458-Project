@@ -8,11 +8,12 @@
 class Buttons {
 public:
 	Buttons();
-	~Buttons();
-
-private:
+	Buttons(string);
 
 	string title;
+	int WIDTH;
+	int HEIGHT;
+
 
 
 };
