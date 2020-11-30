@@ -43,6 +43,8 @@ class POS{
 
     //Objects
     Pointer* mouse;
+    Buttons* text;
+    Screens* screens;
 
     vector<Buttons*> buttons;
 

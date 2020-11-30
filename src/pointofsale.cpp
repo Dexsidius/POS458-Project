@@ -7,13 +7,20 @@ POS::POS(){
 
 int POS::Start(int argc,char** argv){
     SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER);
+    TTF_Init();
+    
+    atexit(SDL_Quit);
+    atexit(TTF_Quit);
 
     window = SDL_CreateWindow("MSU Point of Sale", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, WINDOW_FLAGS);
 
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC);
     
     mouse = new Pointer;
+    text = new Buttons(renderer);
+    screens = new Screens(renderer);
 
+    text->SetFont("Ratcliffer.ttf");
 
     state = MAIN_MENU;
     
@@ -56,7 +63,8 @@ void POS::Process() {
 
     //Application Loop
     switch (state) {
-        case MAIN_MENU: {}break;
+        case MAIN_MENU: {
+        }break;
         case FOOD: {}break;
         case TABS: {}break;
         case ORDERS: {}break;
@@ -68,7 +76,11 @@ void POS::Render(){
     SDL_RenderClear(renderer);
 
     switch (state) {
-        case MAIN_MENU: {}break;
+        case MAIN_MENU: {
+            if (screens->Render(state, renderer)) {
+
+        }
+        }break;
         case FOOD: {}break;
         case TABS: {}break;
         case ORDERS: {}break;
