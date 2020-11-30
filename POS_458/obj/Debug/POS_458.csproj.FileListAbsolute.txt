@@ -1,0 +1,10 @@
+C:\Users\shama\source\repos\POS_458\POS_458\bin\Debug\POS_458.exe.config
+C:\Users\shama\source\repos\POS_458\POS_458\bin\Debug\POS_458.exe
+C:\Users\shama\source\repos\POS_458\POS_458\bin\Debug\POS_458.pdb
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.csprojAssemblyReference.cache
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.Form1.resources
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.Properties.Resources.resources
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.csproj.GenerateResource.cache
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.csproj.CoreCompileInputs.cache
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.exe
+C:\Users\shama\source\repos\POS_458\POS_458\obj\Debug\POS_458.pdb
